@@ -7,7 +7,10 @@
     "build": "tsc -p tsconfig.json --outDir dist",
     "start": "ts-node ./src/index.ts",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "commit",
+    "eslint": "npx eslint . --fix ",
+    "prettier": "npx prettier . --write"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
