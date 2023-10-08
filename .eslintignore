@@ -1,0 +1,4 @@
+jest.fonfig.js
+.eslintrc.js
+dist/*
+node_modules/*
