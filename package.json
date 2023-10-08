@@ -10,6 +10,9 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/prompt-cli": "^17.7.2",
     "@types/jest": "^29.5.5",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "eslint": "^8.51.0",
@@ -32,5 +35,5 @@
   "lint-staged": {
     "*.{ts,tsx,js,jsx,cjs,mjs,vue}": "eslint --fix",
     "*.{ts,tsx,js,jsx,cjs,mjs,css,scss,less,md,vue}": "prettier --write"
-  } 
+  }
 }
